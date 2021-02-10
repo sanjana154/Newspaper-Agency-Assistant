@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane minHeight="601.0" minWidth="563.0" prefHeight="601.0" prefWidth="563.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="billcollector.collectviewController">
+   <children>
+      <Label layoutX="138.0" layoutY="14.0" prefHeight="83.0" prefWidth="355.0" text="Bill Collector" textFill="#e31491">
+         <font>
+            <Font name="System Bold Italic" size="56.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="115.0" text="Mobile Numbers">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="combo" layoutX="79.0" layoutY="156.0" prefHeight="31.0" prefWidth="253.0" />
+      <Button layoutX="362.0" layoutY="156.0" mnemonicParsing="false" onAction="#dofetch" text="Fetch Bill" textFill="#1076e4">
+         <font>
+            <Font name="Elephant" size="18.0" />
+         </font>
+      </Button>
+      <ListView fx:id="lstdate" layoutX="83.0" layoutY="230.0" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="lstamount" layoutX="283.0" layoutY="230.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="83.0" layoutY="472.0" text="Total amount">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtamount" layoutX="222.0" layoutY="471.0" prefHeight="31.0" prefWidth="212.0" />
+      <Button layoutX="241.0" layoutY="532.0" mnemonicParsing="false" onAction="#dopay" prefHeight="31.0" prefWidth="91.0" text="Paid" textFill="#2481e4">
+         <font>
+            <Font name="Elephant" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

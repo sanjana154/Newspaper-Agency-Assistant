@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane minHeight="500.0" minWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="imgwindow.windowviewController">
+   <children>
+      <ImageView fitHeight="164.0" fitWidth="178.0" layoutX="36.0" layoutY="23.0" onMousePressed="#ppr" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/papers.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="217.0" layoutX="269.0" layoutY="43.0" onMousePressed="#hawker" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/hawker.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="176.0" fitWidth="150.0" layoutX="173.0" layoutY="169.0" onMousePressed="#customer" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/customerlogo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="169.0" layoutX="36.0" layoutY="336.0" onMousePressed="#bill" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/bill.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="200.0" layoutX="270.0" layoutY="336.0" onMousePressed="#billcollector" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/billcollector.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
